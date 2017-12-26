@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>デブ</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+
 </head>
 
 <body>
@@ -23,12 +25,17 @@
                 <input type="submit" name="" values="送信">
             </form>
             <a href="dashboard.php">ダッシュボード</a>
-
+            <div class="graph">
+                  <!--描画領域 -->
+                <canvas id="myChart" width="400" height="400"></canvas>
+            </div>
         </div>
     </main>
     <footer>
 
     </footer>
+    <script type="text/javascript"src="./js/my_chart.js">
+    </script>
 </body>
 
 </html>
