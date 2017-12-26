@@ -1,4 +1,20 @@
 h1{
   background-image: url("../img/niku.jpg");
-  height: 200px;
+  height: 20%;
+}
+
+main {
+  height: 50%;
+  width: 100%;
+  
+}
+header {
+  height: 25%;
+  width: 100%;
+
+}
+
+footer {
+  height: 25%;
+  width: 100%;
 }
